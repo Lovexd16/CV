@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+body {
+    background-image: url(bakgrund1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+    
+ a:hover {
+    text-decoration: underline;
+}
+
+.Profil {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 1000px;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+.VänsterSida {
+    background-color: lightblue;
+    position: relative;
+    padding: 40px;
+    opacity: 80%;
+    height: 80%
+    
+}
+
+.Namn {
+    color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.KontaktInfo {
+
+    color: black;
+    font-size: 15px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+.HögerSida {
+
+    background-color: aliceblue;
+    position: relative;
+    padding: 40px;
+    opacity: 80%;
+    height: 80%
+    
+}
+
+h1 {
+    border-bottom: 2px solid;
+}
+
+img {
+    width: 250px;
+    border-radius: 45%;
+}
+
+
+
+
+
+
+
+
+
